@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta content="charset=utf-8"/>
+	<meta name="author" content="გიორგი რაზმაძე">
+    <title>feedback</title>
+    <link rel="stylesheet" href="css/stylesheet.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body id="page6">
+	<div id="header"><!--id="header"-->
+    	<div class="centered"><!--class="centered"-->
+    	
+    	<ul>
+			<li><h1><a href="index.html">Charlie Chaplin</a></h1></li>
+			<li><h2><a href="index.html">and his famous Movies</a></h2></li>
+ 		 </ul>
+       
+        </div><!--End of class="centered"-->
+    </div><!--End of id="header"-->
+    
+    <div id="nav">
+    	<div class="centered">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adogslife.html">A Dog's Life</a></li>
+                <li><a href="thegoldrush.html">The Gold Rush</a></li>
+                <li><a href="thekid.html">The Kid</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="current" id="feedback"><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </div><!--End of class="centered"-->
+    </div><!--End of id="nav"-->
+ 
+ 
+
+    
+    <div id="content"><!--id="content"-->
+    	<div class="centered">
+			<h2>Please write your suggestions to make this site better</h2>
+			
+	<form action="#" method="post">
+		<div>
+			<label for="name">Name:</label>
+			<input type="text" placeholder="e.g David" id="name" name="user_name">
+		</div>
+		<div>
+			<label for="mail">E-mail:</label>
+			<input type="email" placeholder="e.g xxx@yyy.com" id="mail" name="user_mail">
+		</div>
+		<div>
+			<label for="msg">Message:</label>
+			<textarea placeholder="You can write your suggestions here" id="msg" name="user_message"></textarea>
+		</div>
+
+		<div>
+			<button id="clicker" type="submit" value="Submit">Send message</button>
+		</div>
+	</form>
+	<script>
+		$("#clicker").click(function(){
+			alert("your suggestion sent. Thank you for your support!");
+		  });
+	</script>
+		</div><!--End of id="content"-->	
+    </div> <!--End of id="centered"-->
+	
+	<div id="footer"><!--id="footer"-->
+    	<hr class = "centered" color="#3A1E14" size="10px"/>
+    	<div class = "centered">
+			<ul id="png">
+                <li><a href="https://www.reddit.com/" target="_blank"><img src="images/reddit.png" alt="#"></a></li>
+                <li><a href="https://www.tumblr.com/" target="_blank"><img src="images/tumblr.png" alt="#"></a></li>
+                <li><a href="https://www.whatsapp.com/" target="_blank"><img src="images/whatsapp.png" alt="#"></a></li>
+                <li><a href="https://www.skype.com/" target="_blank"><img src="images/skype.png" alt="#"></a></li>
+                <li><a href="https://www.pinterest.com/" target="_blank"><img src="images/pinterest.png" alt="#"></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><img src="images/insta.png" alt="#"></a></li>
+            </ul>
+		</div>
+    </div><!--End of id="footer"-->
+</body>
+</html>
